@@ -1029,7 +1029,65 @@
             "title": "ziyaa-slider",
             "icon": "sicon-carousel",
             "path": "home.slider_ziyaa",
-            "fields": []
+            "fields": [
+                {
+                    "id": "hero_slider",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "hero_slider",
+                    "description": "hero_slider",
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "hero_slider.title",
+                            "type": "string",
+                            "format": "text",
+                            "label": "عنوان الصورة",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": "3",
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "hero_slider.description",
+                            "type": "string",
+                            "format": "text",
+                            "label": "وصف الصورة",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": "3",
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "hero_slider.image",
+                            "type": "string",
+                            "format": "image",
+                            "label": "Image",
+                            "description": "use wide banner",
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": true
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": null,
