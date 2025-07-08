@@ -1023,6 +1023,13 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "key": "f0c3e9db-0665-431c-966b-c009ab3952ab",
+            "title": "ziyaa-slider",
+            "icon": "sicon-carousel",
+            "path": "slider_ziyaa",
+            "fields": []
         }
     ],
     "support_url": null,
